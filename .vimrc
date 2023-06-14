@@ -1,10 +1,11 @@
 call plug#begin()
+#使用vim主题onedark
 Plug 'joshdick/onedark.vim'
 
 Plug 'junegunn/vim-easy-align'
-
+#利用nerttree开启导航栏
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
-
+#利用youcompleteme进行代码补全
 Plug 'valloric/youcompleteme'
 call plug#end()
 colorscheme onedark
